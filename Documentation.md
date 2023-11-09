@@ -78,7 +78,12 @@ Manage skills to create a new skill and edit existing skills.
       **Active:** Click the 'active' option to move a specific skill to the "Active" tab.
 <br><br>
 
-## Levels - General Setting
+
+# Assign Skill
+
+Customize the skills associated with this course by activating or deactivating specific skills to align with your teaching objectives. By default, all skills are disabled. Simply enable the ones that fit your course content and goals.
+
+## Skill - Setting
 
 Global settings should be utilized to supervise the management of skills. These settings establish the rules and standards for assessing, tracking, and awarding skills.
 
@@ -115,7 +120,7 @@ Global settings should be utilized to supervise the management of skills. These 
    Select the categories to make this skill available exclusively to courses within the chosen category. If no category is selected, the course will be available globally across all categories.
 <br><br>
 
-## Levels - Settings
+## Skill - Levels Settings
 
 1. **Number of levels**
 
@@ -138,38 +143,66 @@ Global settings should be utilized to supervise the management of skills. These 
    Please upload an image that represents the level of skill. This will be used for visualization.
 <br><br>
 
-# Course settings
+# Assign Skill - Manage Settings
 
 You can edit and override the skill features such as Status, Upon course completion, and Points options for the specific course.
 
-1. **Status:**
+1. **Create Skill:** The "Create Skill" button is used to create a new skills.
 
-   Choose the status for this skill:
+2. **Key:**
 
-   **Enabled:** The skill will be added to all courses that match the course categories setting below and can be configured by teachers.
+   This displays the assigned "key" for this skill in the course.
 
-   **Disabled:** The skill will not be added to any courses and cannot be used by teachers.
+3. **Name:**
 
-2. **Upon course completion:**
+   This field displays the assigned "name" for this skill within the course.
 
-   Upon course completion, you can choose from several options to determine what should happen at the end of the course.
+4. **Description:**
 
-   **Nothing:** Choose 'Nothing' to use activity completion, instead of course completion, for awarding points.
+   This field displays the provided "description" for this skill within the course.
 
-   **Points:** Select 'Points' to have the specified number of skill points added upon course completion. Please note that using negative numbers will result in a deduction of points.
+5. **Upon course completion:**
 
-   **Set level:** Choose 'Set level' to have the completion of the course add the necessary number of points required to reach that level, unless the student already has more points.
+   Upon course completion, the selected option on the skill settings for this specific skill is displayed.
 
-   **Force level:** Select 'Force level' to set the number of points to the amount required for that level upon course completion, regardless of the student's previous level/points. This may result in students having fewer points than before.
+6. **Actions**
 
-3. **Points:**
+   1. **Status:**
 
-   When the "Points" option is selected under "Upon course completion," this "Points" option will be available. Enter the number of skill points to be awarded or deducted in the "Points" field. Use a positive number to add points and a negative number to deduct points.
+      Choose the status for this skill:
 
-   ***Example:***
-   Entering "50" will add 50 points.
-   Entering "-20" will deduct 20 points.
+      **Enabled:** The skill will be added to  courses that match the course categories setting below and can be configured by teachers.
 
-4. ***Level:***
+      **Disabled:** The skill will not be added to any courses and cannot be used by teachers.
 
-   When the "Level" option is selected under "Upon course completion," this "Level" option will become available. Choose the desired skill level for this course. Upon completion, the student will receive the corresponding number of points required to attain the selected level.
+   2. **Upon course completion:**
+
+      Upon course completion, you can choose from several options to determine what should happen at the end of the course.
+
+      **Nothing:** Choose 'Nothing' to use activity completion, instead of course completion, for awarding points.
+
+      **Points:** Select 'Points' to have the specified number of skill points added upon course completion. Please note that using negative numbers will result in a deduction of points.
+
+         1. **Points:**
+
+            When the "Points" option is selected under "Upon course completion," this "Points" option will be available. Enter the number of skill points to be awarded or deducted in the "Points" field. Use a positive number to add points and a negative number to deduct points.
+
+            ***Example:***
+            Entering "50" will add 50 points.
+            Entering "-20" will deduct 20 points.
+            <br>
+
+      **Set level:** Choose 'Set level' to have the completion of the course add the necessary number of points required to reach that level, unless the student already has more points.
+         2. ***Level:***
+
+            When the "Level" option is selected under "Upon course completion," this "Level" option will become available. Choose the desired skill level for this course. Upon completion, the student will receive the corresponding number of points required to attain the selected level.
+
+      **Force level:** Select 'Force level' to set the number of points to the amount required for that level upon course completion, regardless of the student's previous level/points. This may result in students having fewer points than before.
+
+         3. ***Level:***
+
+         When the "Level" option is selected under "Upon course completion," this "Level" option will become available. Choose the desired skill level for this course. Upon completion, the student will receive the corresponding number of points required to attain the selected level.
+
+7. **Status:**
+
+   Use this toggle to enable or disable the status of the specific skill in the course.
